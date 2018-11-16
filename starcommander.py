@@ -29,7 +29,7 @@ try:
                 star.inner.pulse()
                 sleep(.5)
                 star.outer.pulse()
-            else:
+            elif(num <  0 or num > 4):
                 print("Please enter a number between 0 and 4.")
 except KeyboardInterrupt:
     print("Exiting Star Commander.")
