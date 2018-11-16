@@ -6,6 +6,6 @@ star = Star()
 try:
     star.on()
     while True:
-        sleep(.)
+        sleep(.5)
 except KeyboardInterrupt:
     star.close()
