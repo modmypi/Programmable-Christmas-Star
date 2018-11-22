@@ -15,6 +15,8 @@ try:
             print("2 = pulse")
             print("3 = blink")
             print("4 = alternate pulse inner and outer")
+        elif(num == ''):
+            print("Please enter a number between 0 and 4.")
         else:
             star.off()
             num = int(num)
