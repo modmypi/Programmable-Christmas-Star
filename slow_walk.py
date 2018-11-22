@@ -3,6 +3,7 @@ from star import Star
     
 step = 0.5
 count = 0
+star = Star(pwm=True)
 leds = star.leds
 
 try:
