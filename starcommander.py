@@ -5,7 +5,7 @@ star = Star(pwm=True)
 star.off()
 
 try:
-    print("Welcome to Star Commander!"
+    print("Welcome to Star Commander!")
     while True:
         num = input("What light type would you like on? ")
         if(num == '-h' or num == '--help' or num == 'help'):
